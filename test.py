@@ -13,4 +13,5 @@ class Solution:
 ])
 
 def test_palindrom(input_value, expected):
-    pass
+    sol = Solution()
+    assert sol.isPalindrome(input_value) is expected
