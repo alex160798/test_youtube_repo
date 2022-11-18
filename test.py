@@ -12,6 +12,6 @@ class Solution:
     (2222, True),
 ])
 
-def test_palindrom(input_value, expected):
+def test_palindrome(input_value, expected):
     sol = Solution()
     assert sol.isPalindrome(input_value) is expected
