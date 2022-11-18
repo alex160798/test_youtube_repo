@@ -1,5 +1,3 @@
-print('Hello world!')
-
 import pytest
 
 class Solution:
